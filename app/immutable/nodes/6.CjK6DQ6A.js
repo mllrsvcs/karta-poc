@@ -1,0 +1,1 @@
+import{t as e}from"../chunks/DK3Fl9T5.js";import{X as t,Z as n}from"../chunks/Dy-25zmc.js";import"../chunks/xihTtKlq.js";import{i as r}from"../chunks/BYt45HM3.js";var i=e({});function a(e,i){n(i,!0),r.current=`POV`,t()}export{a as component,i as universal};

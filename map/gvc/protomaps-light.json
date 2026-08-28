@@ -3,7 +3,7 @@
     "sources": {
     "karta-light": {
             "type": "vector",
-            "url": "pmtiles:///map/chattengau/protomaps.pmtiles",
+            "url": "pmtiles:///map/gvc/protomaps.pmtiles",
             "attribution": "© <a href=\"https://openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>"
         }
     },

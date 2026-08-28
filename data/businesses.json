@@ -1,7 +1,51 @@
 [
   {
+    "name": "Gewerbevereinigung Chattengau",
+    "slug": "gvc-infotafel-101",
+    "icon": "gvc.png",
+    "pois": [{
+      "type": "infopoint", "id": "gvc-ip-101",
+      "name": "GVC Infotafel",
+      "icon": "infopoint.png",
+      "time": { "from": 0 },
+      "geos": [{ "type": "Point", "coordinates": [9.382377242668014, 51.21905417652832] }],
+      "links": [{
+        "type": "route",
+        "slug": "fahrschule-mathias-friedrich",
+        "name": "BfV Fahrschule Mathias Friedrich",
+        "desc": "Klappgasse 2a, 34295 Edermünde",
+        "icon": "fsmf.png"
+      },{
+        "type": "route",
+        "slug": "miller-services",
+        "name": "Miller Services",
+        "desc": "Stettiner Straße 4, 34295 Edermünde",
+        "icon": "ms.png"
+      }]
+    }]
+  },
+  {
+    "name": "Gewerbevereinigung Chattengau",
+    "slug": "gvc-wegweiser-201",
+    "icon": "gvc.png",
+    "pois": [{
+      "type": "signpost", "id": "gvc-sp-201",
+      "name": "GVC Wegweiser",
+      "icon": "signpost.png",
+      "time": { "from": 0 },
+      "geos": [{ "type": "Point", "coordinates": [9.384000113838397, 51.221473231329895] }],
+      "links": [{
+        "type": "route",
+        "slug": "fahrschule-mathias-friedrich",
+        "name": "BfV Fahrschule Mathias Friedrich",
+        "desc": "Klappgasse 2a, 34295 Edermünde",
+        "icon": "fsmf.png"
+      }]
+    }]
+  },
+  {
     "name": "BfV Fahrschule Mathias Friedrich",
-    "slug": "mathias-friedrich",
+    "slug": "fahrschule-mathias-friedrich",
     "icon": "fsmf.png",
     "pois": [{
       "type": "primary", "id": "fsmf-ks-5",
@@ -32,7 +76,14 @@
       "type": "secondary", "id": "fsmf-hr-3",
       "name": "Klappgasse 2a, 34295 Edermünde",
       "time": { "from": 1435752000000 },
-      "geos": [{ "type": "Point", "coordinates": [9.385987664692806, 51.22105203590144] }]
+      "geos": [{ "type": "Point", "coordinates": [9.385987664692806, 51.22105203590144] }],
+      "links": [{
+        "type": "mode",
+        "slug": "pov",
+        "name": "BfV Fahrschule Mathias Friedrich",
+        "desc": "Klappgasse 2a, 34295 Edermünde",
+        "icon": "door_entry.png"
+      }]
     },{
       "type": "secondary", "id": "fsmf-hr-2",
       "name": "Tiefenbachweg 5a, 34295 Edermünde",
@@ -45,9 +96,9 @@
       "geos": [{ "type": "Point", "coordinates": [9.387868472799415, 51.22376998572823] }]
     }],
     "routes": [{
-      "start": 101,
+      "start": "gvc-ip-101",
       "distance": 480,
-      "route": [
+      "path": [
         [9.382377242668014, 51.21905417652832],
         [9.382408178313113, 51.22010151466759],
         [9.382456846942347, 51.22041520345957],
@@ -65,12 +116,26 @@
         [9.385480582498843, 51.22120282364264],
         [9.385982980545066, 51.22121068994275],
         [9.385986912357055, 51.22108978926252]
+      ],
+      "route": [
+        [9.382377242668014, 51.21905417652832],
+        [9.38279438751752, 51.22092455675579],
+        [9.384000113838397, 51.221473231329895],
+        [9.385392664953088, 51.22128246987515],
+        [9.385982980545066, 51.22121068994275],
+        [9.385986912357055, 51.22108978926252]
       ]
     },
     {
-      "start": 201,
+      "start": "gvc-sp-201",
       "distance": 160,
       "route": [
+        [9.384000113838397, 51.221473231329895],
+        [9.385392664953088, 51.22128246987515],
+        [9.385982980545066, 51.22121068994275],
+        [9.385986912357055, 51.22108978926252]
+      ],
+      "path": [
         [9.384000113838397, 51.221473231329895],
         [9.384522909242435, 51.22136507019408],
         [9.385392664953088, 51.22128246987515],
@@ -90,12 +155,19 @@
       "type": "primary", "id": "ms-hr-1",
       "name": "Stettiner Straße 4, 34295 Edermünde",
       "time": { "from": 1443700800000 },
-      "geos": [{ "type": "Point", "coordinates": [9.389501647108425, 51.217526636903195] }]
+      "geos": [{ "type": "Point", "coordinates": [9.389501647108425, 51.217526636903195] }],
+      "links": [{
+        "type": "mode",
+        "slug": "pov",
+        "name": "Miller Services",
+        "desc": "Stettiner Straße 4, 34295 Edermünde",
+        "icon": "door_entry.png"
+      }]
     }],
     "routes": [{
-      "start": 101,
+      "start": "gvc-ip-101",
       "distance": 720,
-      "route": [
+      "path": [
         [9.382377242668014, 51.21905417652832],
         [9.382372211349264, 51.21897294681693],
         [9.382346304736274, 51.21886673690702],
@@ -119,6 +191,16 @@
         [9.388434228326929, 51.2176181931537],
         [9.389421466083519, 51.217903501682656],
         [9.389507821457926, 51.21775401752623],
+        [9.389642869251702, 51.217653213787116],
+        [9.38955651387829, 51.21756224437354]
+      ],
+      "route": [
+        [9.382377242668014, 51.21905417652832],
+        [9.382487613530174, 51.2187020127196],
+        [9.385666454913746, 51.219249518666345],
+        [9.386476709945384, 51.219517525796846],
+        [9.388434228326929, 51.2176181931537],
+        [9.389421466083519, 51.217903501682656],
         [9.389642869251702, 51.217653213787116],
         [9.38955651387829, 51.21756224437354]
       ]
