@@ -1,0 +1,1 @@
+import{dt as e,ut as t}from"../chunks/BlgyY_1G.js";import"../chunks/xihTtKlq.js";import{i as n}from"../chunks/D4vI2XTA.js";function r(r,i){e(i,!0),n.current=`POV`,t()}export{r as component};

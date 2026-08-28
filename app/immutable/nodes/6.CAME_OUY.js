@@ -1,0 +1,1 @@
+import{t as e}from"../chunks/DK3Fl9T5.js";import{t}from"../chunks/DxhPVHKV.js";var n=e({load:()=>r});function r(){throw t(307,`/map/gvc/`)}export{n as universal};

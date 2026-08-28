@@ -12,13 +12,13 @@
       "links": [{
         "type": "route",
         "slug": "fahrschule-mathias-friedrich",
-        "name": "BfV Fahrschule Mathias Friedrich",
+        "name": "Route berechnen:\nBfV Fahrschule Mathias Friedrich",
         "desc": "Klappgasse 2a, 34295 Edermünde",
         "icon": "fsmf.png"
       },{
         "type": "route",
         "slug": "miller-services",
-        "name": "Miller Services",
+        "name": "Route berechnen:\nMiller Services",
         "desc": "Stettiner Straße 4, 34295 Edermünde",
         "icon": "ms.png"
       }]
@@ -37,7 +37,7 @@
       "links": [{
         "type": "route",
         "slug": "fahrschule-mathias-friedrich",
-        "name": "BfV Fahrschule Mathias Friedrich",
+        "name": "Route berechnen:\nBfV Fahrschule Mathias Friedrich",
         "desc": "Klappgasse 2a, 34295 Edermünde",
         "icon": "fsmf.png"
       }]
@@ -80,9 +80,9 @@
       "links": [{
         "type": "mode",
         "slug": "pov",
-        "name": "BfV Fahrschule Mathias Friedrich",
+        "name": "Gebäude betreten:",
         "desc": "Klappgasse 2a, 34295 Edermünde",
-        "icon": "door_entry.png"
+        "icon": "door_open_alt.png"
       }]
     },{
       "type": "secondary", "id": "fsmf-hr-2",
@@ -159,9 +159,9 @@
       "links": [{
         "type": "mode",
         "slug": "pov",
-        "name": "Miller Services",
+        "name": "Gebäude betreten:",
         "desc": "Stettiner Straße 4, 34295 Edermünde",
-        "icon": "door_entry.png"
+        "icon": "door_open_alt.png"
       }]
     }],
     "routes": [{
