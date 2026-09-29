@@ -3,8 +3,7 @@
     "sources": {
     "karta-light": {
             "type": "vector",
-            "url": "pmtiles:///map/gvc/protomaps.pmtiles",
-            "attribution": "© <a href=\"https://openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>"
+            "url": "pmtiles:///map/gvc/protomaps.pmtiles"
         }
     },
     "layers": [

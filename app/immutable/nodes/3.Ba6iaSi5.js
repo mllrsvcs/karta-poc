@@ -1,0 +1,1 @@
+import{n as e}from"../chunks/BpQH8Ho1.js";import{t}from"../chunks/DxhPVHKV.js";var n=e({load:()=>r});function r(){throw t(307,`/map/gvc/`)}export{n as universal};
