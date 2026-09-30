@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PanoSphere</title>
+    <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene xr-mode-ui="enabled: false">
+      <a-sky id="sky" src="pano/puydesancy.jpg" rotation="0 -130 0"></a-sky>
+    </a-scene>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const paramSrc = urlParams.get('src');
+      const paramRotation = urlParams.get('rotation');
+
+      const skyEl = document.getElementById('sky');
+
+      if (paramSrc) {
+        skyEl.setAttribute('src', paramSrc);
+      }
+
+      if (paramRotation) {
+        skyEl.setAttribute('rotation', `0 ${paramRotation} 0`);
+      }
+    </script>
+  </body>
+</html>

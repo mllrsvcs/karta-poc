@@ -10,6 +10,12 @@
       "geos": [{ "type": "Point", "coordinates": [9.389501647108425, 51.217526636903195] }],
       "links": [{
         "type": "mode",
+        "slug": "pano",
+        "name": "Gebäude betreten:",
+        "desc": "Stettiner Straße 4, 34295 Edermünde",
+        "icon": "pano.png"
+      },{
+        "type": "mode",
         "slug": "pov",
         "name": "Gebäude betreten:",
         "desc": "Stettiner Straße 4, 34295 Edermünde",
@@ -155,6 +161,12 @@
       "time": { "from": 1435752000000 },
       "geos": [{ "type": "Point", "coordinates": [9.385987664692806, 51.22105203590144] }],
       "links": [{
+        "type": "mode",
+        "slug": "pano",
+        "name": "Gebäude betreten:",
+        "desc": "Klappgasse 2a, 34295 Edermünde",
+        "icon": "pano.png"
+      },{
         "type": "mode",
         "slug": "pov",
         "name": "Gebäude betreten:",
